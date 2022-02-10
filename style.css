@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+.head {
+    box-sizing: border-box;
+  color: rgb(20, 20, 70);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.typing {
+    box-sizing: border-box;
+  width: 15ch;
+  animation: typing 2s steps(13), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid rgb(20, 20, 70);
+  font-family: monospace;
+  font-size: 4em;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-right: transparent;
+  }
+}
+section{
+    padding: 8px;
+    border-radius: 8px;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.24);
+    max-width: 80%;
+    box-shadow: 2px 2px 5px rgb(223, 216, 216);
+    
+}
+p{
+    font-family: monospace;
+}
+h2{
+    font-size: 2em;
+    font-weight: 900;
+    font-family: monospace;
+}
+main{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-inline: auto;
+    width: 80%;
+    
+}
+.stack{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    height: fit-content;
+    gap: 8px;
+    border: 2px solid;
+}
+.stack-item{
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 4px;
+}
+.image{
+    
+    width: 100%;
+    height: 65%;
+    border-radius: 4px;
+    /* border: 1px solid; */
+}
+img{
+    object-fit: cover;
+    aspect-ratio: 1 / 0.7659;
+    width: 100%;
+    
+}
+h3{
+margin-left: 8px;
+font-family: monospace;
+}
+ul{
+    list-style:circle;
+}
+.projects-container{
+    margin-inline: auto;
+    border: 2px solid;
+    
+
+}
