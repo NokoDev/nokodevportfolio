@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+li{
+    
+    border: 1px solid blue;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 4px;
+}
+li:hover{
+    
+    transform: scale(1.09);
+    color: white;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+.container{
+    max-width: 60%;
+    min-width: 300px;
+    /* background-color: whitesmoke; */
+    /* border: 4px solid blue; */
+    margin-inline: auto;
+    margin-top: 40px;
+    height: fit-content;
+}
+nav{
+    background-color: black;
+    height: 70px;
+    max-width: 100%;
+    min-width: 300px;
+}
+header{
+    
+    /* border: 2px solid black; */
+    max-width: 100%;
+    /* background-image: url("https://images.unsplash.com/photo-1649853391577-c8af685694a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+    height: 100%;
+}
+
+.head_image{
+    height: 400px;
+    max-width: 100%;
+    background-image: url("micheile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title_1{
+    margin: 0;
+    margin-inline: auto;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding-left: 12px;
+}
+.title_2{
+    margin: 0;
+    margin-inline: auto;
+    padding-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 2.095em;
+    padding-left: 12px;
+}
+#about_title{
+    margin: 60px 0 20px 0;
+    font-size: 2.095em;
+    letter-spacing: 1.05px;
+
+}
+.about{
+    
+    margin-top: 20px;
+    padding: 6px;
+    
+}
+p{
+    margin: 4px 4px;
+    font-size: 1.35em;
+}
+.projects{
+    margin-top: 25px;
+    box-shadow: 0 0 3px gray;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 4px;
+    max-width: 100%;
+    min-width: 300px;
+    align-content: center;
+    
+}
+.project_child{
+    border: 2px solid red;
+    margin: 4px;
+    /* min-width: 200px; */
+    height: 200px;
+    
+}
+.project_child:hover{
+    transform: scale(1.0195);
+}
+#projects_title{
+    font-size: 2.095em;
+    margin: 60px 0 20px 0;
+    letter-spacing: 1.05px;
+}
+.footer{
+    /* margin-bottom: 0; */
+    /* margin-top: auto; */
+    background-color: black;
+    height: 70px;
+    max-width: 100%;
+    min-width: 300px;
+    color: white;
+}
+#form_title{
+    font-size: 2.095em; 
+    margin: 60px 0 20px 0;
+    letter-spacing: 1.05px;
+}
+.input_label{
+    letter-spacing: 1px;
+    font-size: 1.28em;
+    display: block;
+    margin: 8px 0;
+}
+.checkbox_label{
+    font-size: 1.12em;
+    letter-spacing: 0.5px;
+}
+.checkboxes{
+    display: flex;
+    justify-content: start;
+    
+}
+.checkboxes_child{
+    margin: 12px;
+}
