@@ -160,9 +160,14 @@ p{
     font-size: 1.06em;
     color: black;
     font-family: sans-serif;
-    width: 280px;
+    min-width: 265px;
+    max-width: 350px;
     height: 30px;
     padding: 0.5px;
     border-radius: 0;
     border: 2px solid navy;
+}
+textarea{
+    border: 2px solid navy;
+    min-width: 265px;
 }
