@@ -5,6 +5,14 @@ body{
     flex-direction: column;
     font-family: cursive;
 }
+.main{
+    margin-left: 20px;
+}
+.main_h1{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
 ul{
     list-style: none;
     display: flex;
@@ -157,11 +165,13 @@ p{
     margin: 12px;
 }
 .input_field{
+    display: block;
     font-size: 1.06em;
     color: black;
     font-family: sans-serif;
+    max-width: 500px;
+    
     min-width: 265px;
-    max-width: 350px;
     height: 30px;
     padding: 0.5px;
     border-radius: 0;
@@ -170,4 +180,10 @@ p{
 textarea{
     border: 2px solid navy;
     min-width: 265px;
+}
+@media screen and (max-width: 450px){
+    body{
+        background-color: black;
+    }
+    
 }
