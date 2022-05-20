@@ -8,7 +8,7 @@ body{
 .main{
     margin-left: 20px;
 }
-.main_h1{
+.main_h1 > a{
     color: white;
     letter-spacing: 2px;
     font-weight: 900;
@@ -85,20 +85,24 @@ header{
     padding-left: 12px;
 }
 #about_title{
-    margin: 60px 0 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 2.095em;
     letter-spacing: 1.05px;
 
 }
 .about{
     
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 6px;
     
 }
 p{
     margin: 4px 4px;
     font-size: 1.35em;
+}
+.project{
+    margin-top: 60px;
+    padding: 6px; 
 }
 .projects{
     margin-top: 25px;
@@ -123,7 +127,7 @@ p{
 }
 #projects_title{
     font-size: 2.095em;
-    margin: 60px 0 20px 0;
+    margin: 20px 0 20px 0;
     letter-spacing: 1.05px;
 }
 .footer{
@@ -137,7 +141,7 @@ p{
 }
 .form_container{
     margin: 60px 0;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(195, 207, 207);
     max-width: 100%;
 }
@@ -181,9 +185,12 @@ textarea{
     border: 2px solid navy;
     min-width: 265px;
 }
-@media screen and (max-width: 450px){
-    body{
-        background-color: black;
-    }
+@media screen and (max-width: 700px){
     
+    .container{
+        max-width: 100%;
+        margin-left: 4px;
+        margin-right: 4px;
+       
+    }
 }
