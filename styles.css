@@ -31,6 +31,9 @@ body {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
+.night_toggle:hover{
+    transform: scale(1.063);
+}
 
 .night {
     box-sizing: border-box;
