@@ -5,6 +5,9 @@ body {
     flex-direction: column;
     font-family: cursive;
 }
+.body_night{
+    background-color: black;
+}
 
 .main {
     padding-left: 20px;
@@ -30,6 +33,7 @@ body {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    cursor:pointer;
 }
 .night_toggle:hover{
     transform: scale(1.063);
