@@ -3,6 +3,15 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    font-family: cursive;
+}
+.main{
+    margin-left: 20px;
+}
+.main_h1 > a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
 }
 ul{
     list-style: none;
@@ -76,20 +85,24 @@ header{
     padding-left: 12px;
 }
 #about_title{
-    margin: 60px 0 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 2.095em;
     letter-spacing: 1.05px;
 
 }
 .about{
     
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 6px;
     
 }
 p{
     margin: 4px 4px;
     font-size: 1.35em;
+}
+.project{
+    margin-top: 60px;
+    padding: 6px; 
 }
 .projects{
     margin-top: 25px;
@@ -114,7 +127,7 @@ p{
 }
 #projects_title{
     font-size: 2.095em;
-    margin: 60px 0 20px 0;
+    margin: 20px 0 20px 0;
     letter-spacing: 1.05px;
 }
 .footer{
@@ -126,9 +139,15 @@ p{
     min-width: 300px;
     color: white;
 }
+.form_container{
+    margin: 60px 0;
+    padding: 10px;
+    background-color: rgb(195, 207, 207);
+    max-width: 100%;
+}
 #form_title{
     font-size: 2.095em; 
-    margin: 60px 0 20px 0;
+    margin: 4px 0 20px 0;
     letter-spacing: 1.05px;
 }
 .input_label{
@@ -138,7 +157,7 @@ p{
     margin: 8px 0;
 }
 .checkbox_label{
-    font-size: 1.12em;
+    font-size: 1.18em;
     letter-spacing: 0.5px;
 }
 .checkboxes{
@@ -148,4 +167,30 @@ p{
 }
 .checkboxes_child{
     margin: 12px;
+}
+.input_field{
+    display: block;
+    font-size: 1.06em;
+    color: black;
+    font-family: sans-serif;
+    max-width: 500px;
+    
+    min-width: 265px;
+    height: 30px;
+    padding: 0.5px;
+    border-radius: 0;
+    border: 2px solid navy;
+}
+textarea{
+    border: 2px solid navy;
+    min-width: 265px;
+}
+@media screen and (max-width: 700px){
+    
+    .container{
+        max-width: 100%;
+        margin-left: 4px;
+        margin-right: 4px;
+       
+    }
 }
