@@ -1,11 +1,12 @@
-body{
+body {
     margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     font-family: cursive;
 }
-.main{
+
+.main {
     padding-left: 20px;
     box-sizing: border-box;
     display: flex;
@@ -13,43 +14,73 @@ body{
     justify-content: space-between;
     padding-right: 20px;
 }
-.main_h1 > a{
+
+.main_h1>a {
     color: white;
     letter-spacing: 2px;
     font-weight: 900;
 }
-.night_toggle{
+
+.night_toggle {
+    /* padding-top: 6px; */
+    position: relative;
     margin-top: 14px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
 }
-ul{
+
+.night {
+    box-sizing: border-box;
+    margin-inline: auto;
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.day{
+    position: absolute;
+    box-sizing: border-box;
+    margin-inline: auto;
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 4px;
+    /* margin-top: 6px; */
+}
+
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
 }
-li{
-    
+
+li {
+
     border: 1px solid blue;
     padding: 8px;
     margin: 15px;
     border-radius: 4px;
 }
-li:hover{
-    
+
+li:hover {
+
     transform: scale(1.09);
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
-    
+
 }
 
 
-.container{
+.container {
     max-width: 60%;
     min-width: 300px;
     /* background-color: whitesmoke; */
@@ -58,21 +89,23 @@ a{
     margin-top: 40px;
     height: fit-content;
 }
-nav{
+
+nav {
     background-color: black;
     height: 70px;
     max-width: 100%;
     min-width: 300px;
 }
-header{
-    
+
+header {
+
     /* border: 2px solid black; */
     max-width: 100%;
     /* background-image: url("https://images.unsplash.com/photo-1649853391577-c8af685694a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
     height: 100%;
 }
 
-.head_image{
+.head_image {
     height: 400px;
     max-width: 100%;
     background-image: url("micheile.jpg");
@@ -80,7 +113,8 @@ header{
     background-position: center;
     background-size: cover;
 }
-.title_1{
+
+.title_1 {
     margin: 0;
     margin-inline: auto;
     padding-top: 120px;
@@ -88,7 +122,8 @@ header{
     font-size: 3em;
     padding-left: 12px;
 }
-.title_2{
+
+.title_2 {
     margin: 0;
     margin-inline: auto;
     padding-top: 25px;
@@ -96,53 +131,62 @@ header{
     font-size: 2.095em;
     padding-left: 12px;
 }
-#about_title{
+
+#about_title {
     margin: 20px 0 20px 0;
     font-size: 2.095em;
     letter-spacing: 1.05px;
 
 }
-.about{
-    
+
+.about {
+
     margin-top: 60px;
     padding: 6px;
-    
+
 }
-p{
+
+p {
     margin: 4px 4px;
     font-size: 1.35em;
 }
-.project{
+
+.project {
     margin-top: 60px;
-    padding: 6px; 
+    padding: 6px;
 }
-.projects{
+
+.projects {
     margin-top: 25px;
     box-shadow: 0 0 3px gray;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 4px;
     max-width: 100%;
     min-width: 300px;
     align-content: center;
-    
+
 }
-.project_child{
+
+.project_child {
     border: 2px solid red;
     margin: 4px;
     /* min-width: 200px; */
     height: 200px;
-    
+
 }
-.project_child:hover{
+
+.project_child:hover {
     transform: scale(1.0195);
 }
-#projects_title{
+
+#projects_title {
     font-size: 2.095em;
     margin: 20px 0 20px 0;
     letter-spacing: 1.05px;
 }
-.footer{
+
+.footer {
     /* margin-bottom: 0; */
     /* margin-top: auto; */
     background-color: black;
@@ -151,68 +195,79 @@ p{
     min-width: 300px;
     color: white;
 }
-.form_container{
+
+.form_container {
     margin: 60px 0;
     padding: 10px;
     background-color: rgb(195, 207, 207);
     max-width: 100%;
 }
-#form_title{
-    font-size: 2.095em; 
+
+#form_title {
+    font-size: 2.095em;
     margin: 4px 0 20px 0;
     letter-spacing: 1.05px;
 }
-.input_label{
+
+.input_label {
     letter-spacing: 1px;
     font-size: 1.28em;
     display: block;
     margin: 8px 0;
 }
-.checkbox_label{
+
+.checkbox_label {
     font-size: 1.18em;
     letter-spacing: 0.5px;
 }
-.checkboxes{
+
+.checkboxes {
     display: flex;
     justify-content: start;
-    
+
 }
-.checkboxes_child{
+
+.checkboxes_child {
     margin: 12px;
 }
-.input_field{
+
+.input_field {
     display: block;
     font-size: 1.06em;
     color: black;
     font-family: sans-serif;
     max-width: 500px;
-    
+
     min-width: 265px;
     height: 30px;
     padding: 0.5px;
     border-radius: 0;
     border: 2px solid navy;
 }
-textarea{
+
+textarea {
     border: 2px solid navy;
-   
+
     min-width: 265px;
-   
-    
+
+
 }
-@media screen and (max-width: 700px){
-    
-    .container{
+
+@media screen and (max-width: 700px) {
+
+    .container {
         max-width: 100%;
         margin-left: 4px;
         margin-right: 4px;
-       
+
     }
 }
-.btn{
+
+.btn {
     max-width: 60px;
 }
-button{
+
+button {
     padding: 4px 12px;
     width: 80px;
     font: 500;
@@ -220,7 +275,8 @@ button{
     color: whitesmoke;
     letter-spacing: 1px;
 }
-button:hover{
+
+button:hover {
     transform: scale(1.05);
     box-shadow: 3px 3px 3px grey;
 }
