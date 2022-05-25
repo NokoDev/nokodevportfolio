@@ -6,7 +6,7 @@ body {
     font-family: cursive;
 }
 .body_night{
-    background-color: black;
+    background-color: rgb(39, 36, 36);
 }
 
 .main {
@@ -111,14 +111,26 @@ header {
     /* background-image: url("https://images.unsplash.com/photo-1649853391577-c8af685694a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
     height: 100%;
 }
+.header_dark{
+    max-width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 3px 0 8px rgb(72, 72, 72);
+}
 
 .head_image {
-    height: 400px;
+    /* height: 400px;
     max-width: 100%;
     background-image: url("micheile.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.title_1_dark{
+    padding: 8px;
 }
 
 .title_1 {
@@ -147,9 +159,11 @@ header {
 }
 
 .about {
-
+    background-color: whitesmoke;
+    border-radius: 8px;
     margin-top: 60px;
-    padding: 6px;
+    padding: 12px;
+    box-shadow: 0 3px 8px rgb(72, 72, 72);
 
 }
 
@@ -161,6 +175,9 @@ p {
 .project {
     margin-top: 60px;
     padding: 6px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgb(72, 72, 72);
 }
 
 .projects {
@@ -204,10 +221,13 @@ p {
 }
 
 .form_container {
+    border-radius: 8px;
     margin: 60px 0;
     padding: 10px;
-    background-color: rgb(195, 207, 207);
+    background-color: rgba(201, 207, 195, 0.373);
     max-width: 100%;
+    box-shadow: 0 3px 8px rgb(72, 72, 72);
+
 }
 
 #form_title {
