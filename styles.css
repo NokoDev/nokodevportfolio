@@ -118,6 +118,11 @@ header {
     border-radius: 8px;
     padding: 10px;
     box-shadow: 3px 0 8px rgb(72, 72, 72);
+    transform: scale(1.0145);
+}
+
+.header_dark:hover{
+    transform: scale(1.0145);
 }
 
 .head_image {
@@ -164,7 +169,11 @@ header {
     margin-top: 60px;
     padding: 12px;
     box-shadow: 0 3px 8px rgb(72, 72, 72);
+    
+}
 
+.about:hover{
+    transform: scale(1.0145);
 }
 
 p {
@@ -178,6 +187,10 @@ p {
     background-color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 3px 8px rgb(72, 72, 72);
+}
+
+.project:hover{
+    transform: scale(1.0145);
 }
 
 .projects {
@@ -201,7 +214,7 @@ p {
 }
 
 .project_child:hover {
-    transform: scale(1.0195);
+    transform: scale(1.0145);
 }
 
 #projects_title {
@@ -230,6 +243,9 @@ p {
 
 }
 
+.form_container:hover{
+    transform: scale(1.05);
+}
 #form_title {
     font-size: 2.095em;
     margin: 4px 0 20px 0;
