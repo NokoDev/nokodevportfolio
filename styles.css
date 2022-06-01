@@ -5,7 +5,8 @@ body {
     flex-direction: column;
     font-family: cursive;
 }
-.body_night{
+
+.body_night {
     background-color: rgb(39, 36, 36);
 }
 
@@ -33,9 +34,10 @@ body {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    cursor:pointer;
+    cursor: pointer;
 }
-.night_toggle:hover{
+
+.night_toggle:hover {
     transform: scale(1.063);
 }
 
@@ -48,7 +50,8 @@ body {
     border-radius: 50%;
     margin-top: 6px;
 }
-.day{
+
+.day {
     position: absolute;
     box-sizing: border-box;
     margin-inline: auto;
@@ -111,30 +114,31 @@ header {
     /* background-image: url("https://images.unsplash.com/photo-1649853391577-c8af685694a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
     height: 100%;
 }
-.header_dark{
+
+.header_dark {
     max-width: 100%;
     height: fit-content;
     background-color: whitesmoke;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 3px 0 8px rgb(72, 72, 72);
-    
+
 }
 
-.header_dark:hover{
+.header_dark:hover {
     transform: scale(1.0145);
 }
 
-.head_image {
-    /* height: 400px;
+/* .head_image { */
+/* height: 400px;
     max-width: 100%;
     background-image: url("micheile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-}
+/* } */
 
-.title_1_dark{
+.title_1_dark {
     padding: 8px;
 }
 
@@ -169,10 +173,10 @@ header {
     margin-top: 60px;
     padding: 12px;
     box-shadow: 0 3px 8px rgb(72, 72, 72);
-    
+
 }
 
-.about:hover{
+.about:hover {
     transform: scale(1.0145);
 }
 
@@ -189,7 +193,7 @@ p {
     box-shadow: 0 3px 8px rgb(72, 72, 72);
 }
 
-.project:hover{
+.project:hover {
     transform: scale(1.0145);
 }
 
@@ -206,11 +210,19 @@ p {
 }
 
 .project_child {
-    border: 2px solid red;
+    border: 2px solid rgb(157, 255, 0);
     margin: 4px;
     /* min-width: 200px; */
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+
+h4 {
+    text-align: center;
+    color: rgb(128, 9, 0);
 }
 
 .project_child:hover {
@@ -243,9 +255,10 @@ p {
 
 }
 
-.form_container:hover{
+.form_container:hover {
     transform: scale(1.05);
 }
+
 #form_title {
     font-size: 2.095em;
     margin: 4px 0 20px 0;
