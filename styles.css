@@ -244,6 +244,28 @@ h4 {
     max-width: 100%;
     min-width: 300px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.github{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 6px;
+    width: fit-content;
+    height: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    /* float: inline-start; */
+
+}
+.github:hover{
+    transform: scale(1.0165);
+}
+
+.github > a{
+    color: blue;
 }
 
 .form_container {
